@@ -12,10 +12,10 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
 
-        String inp = printInput(scanner, "Welcome to the game! Now you've lost the game!", new String[] {"Continue"});
+        String inp = printAskInput(scanner, "Welcome to the historically accurate game!", new String[] {"Continue"});
     }
 
-    public static String printInput(Scanner s, String msg, String[] responses) {
+    public static String printAskInput(Scanner s, String msg, String[] responses) {
         System.out.print(msg + "\nInput (" + responsesToString(responses) + "): ");
 
         String inp = s.next();
