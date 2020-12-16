@@ -69,8 +69,9 @@ public class Main {
     public static String printAskInput(Scanner s, String msg, String[] responses) {
         System.out.print(msg + "\nInput (" + responsesToString(responses) + "): ");
 
-        String inp = "";
+        String inp = s.nextLine();
         while (!inside(inp, responses)) {
+            System.out.print("Choose from (" + responsesToString(responses) + "): ");
             inp = s.nextLine();
         }
 
