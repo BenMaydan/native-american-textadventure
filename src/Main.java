@@ -19,12 +19,12 @@ public class Main {
 
 
         // 1785, step 1
-        String inp = printAskInput(scanner, "Welcome to the historically accurate game!", new String[] {"Continue"});
+        String inp = printAskInput(scanner, "Welcome to the historically accurate game! PRESS <ENTER> TO CONTINUE", new String[] {""});
 
         inp = printAskInput(scanner, "In this game, you control the actions of various Native American tribes throughout history."
             + "\n You must make tough choices that will affect different aspects of Native American society as your battle for your rights"
             + "\n as US Citizens over time. Currently, the year is 1513 and you've just made first contact with the American colonists. Your choices"
-            + "\n from this point on will affect the future of native American rights and society. Are you ready to begin?", new String[] {"YES!"});
+            + "\n from this point on will affect the future of native American rights and society. Are you ready to begin? PRESS <ENTER> TO CONTINUE", new String[] {""});
         
         String ask = "\nThe year is 1785. The new United States of America proposes that your tribe signs the Treaty"
                 + "\nof Hopewell. The treaty establishes boundaries between your land and the United States, but promises"
