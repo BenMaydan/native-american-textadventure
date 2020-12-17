@@ -21,7 +21,7 @@ public class Main {
         // 1785, step 1
         String inp = printAskInput(scanner, "Welcome to the historically accurate game!", new String[] {"Continue"});
 
-        String inp = printAskInput(scanner, "In this game, you control the actions of various Native American tribes throughout history."
+        inp = printAskInput(scanner, "In this game, you control the actions of various Native American tribes throughout history."
             + "\n You must make tough choices that will affect different aspects of Native American society as your battle for your rights"
             + "\n as US Citizens over time. Currently, the year is 1513 and you've just made first contact with the American colonists. Your choices"
             + "\n from this point on will affect the future of native American rights and society. Are you ready to begin?", new String[] {"YES!"});
@@ -153,10 +153,10 @@ public class Main {
             System.out.println("Oh... Well it is the bright side for Americans. Cheer for capitalism!");
         }
 
-        ask = "The year is now 1890, and the Indian Naturalization Act has just been passed. This is finally some good news! You may now" +
+        ask = "The year is now 1890, and the Indian Naturalization Act has just been passed. This is finally some good news! You may now"
             +"\n have a clear path to US Citizenship through Naturalization! If you choose, you may get a chance to become a citizen depending"
             +"\n on the requirements determined by state law. Applying will cause you to loose a slight amount of your culture"
-            +"\n as your people integrate into American society, but it's definitely a temping offer!"
+            +"\n as your people integrate into American society, but it's definitely a temping offer!";
         /*
         The Dawes Act broke up reservations into plots of land for each individual family.
         In exchange for accepting a plot, Native Americans would receive citizenship.
@@ -175,9 +175,9 @@ public class Main {
             if (result > 60){
                 System.out.println("You attempted to be Naturalized. Unfortunately, your state's court did not accept your Naturalization. You did not gain citizenship."
                     +"\n no culture was lost, as you did not gain citizenships.");
-            } else {""
+            } else {
                 System.out.println("Under the new Indian Naturalization act, you have been Naturalized. More members of your tribe are now citizens."+
-                    +"\n some of your culture was lost as you integrated into American society.");
+                    "\n some of your culture was lost as you integrated into American society.");
                 culture--;
                 if (!citizenship)
                 citizenshipstep = 5;
