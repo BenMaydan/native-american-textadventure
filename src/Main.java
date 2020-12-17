@@ -192,7 +192,7 @@ public class Main {
 
         
         // Conclusion
-        System.out.println("\n\nThough all Native Americans have gained citizenship, there is still a long way to go in the fight for rights. Native "
+        System.out.println("\n\nIn 1924, all Native Americans gain citizenship, but there is still a long way to go in the fight for rights. Native "
                 + "\nAmericans do not gain voting rights until the civil rights movement of the 1960s. Now, the Constitution protects all "
                 + "\nrights but the journey to that protection was a struggle.");
         
