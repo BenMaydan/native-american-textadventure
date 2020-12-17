@@ -100,7 +100,11 @@ public class Main {
             System.out.println("You still lost 1 culture and 1 land. Too bad, so sad.");
         }
         else if (inp.equals("go")) {
-            System.out.println("This action was not representative of real life, and you lost your land. Hopefully it was worth it!");
+            System.out.println("This action was not representative of real life, and you lost your land due to the Indian Removal act." +
+                    "\nHopefully it was worth it!" +
+                    "\n The Indian Removal act/law \"authorized the president to negotiate with southern Native American tribes" +
+                    "\nfor their removal to federal territory west of the Mississippi River" +
+                    "\nin exchange for white settlement of their ancestral lands\"");
             land--;
             System.out.println("Well, at least you didn't lose your culture! Minus 1 land.");
         }
@@ -142,7 +146,7 @@ public class Main {
                                 "\nDare I say, this is not going too well...");
         }
         else if (inp.equals("decline")) {
-            System.out.println("Hmm, you did not receive and land. Your tribe's culture has gone down because of this," +
+            System.out.println("Hmm, you did not receive any land. Your tribe's culture has gone down because of this," +
                     "\nAnd the Americans are pissed at you, to say the least" +
                     "\nThis choice was not representative of what happened in real life.");
             culture--;
@@ -156,7 +160,7 @@ public class Main {
 
 
 
-        
+
         ask = "\n\nThe year is now 1890, and the Indian Naturalization Act has just been passed. This is finally some good news! You may now"
             +"\n have a clear path to US Citizenship through Naturalization! If you choose, you may get a chance to become a citizen depending"
             +"\n on the requirements determined by state law. Applying will cause you to loose a slight amount of your culture"
