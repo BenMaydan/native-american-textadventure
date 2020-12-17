@@ -26,7 +26,7 @@ public class Main {
             + "\n as US Citizens over time. Currently, the year is 1513 and you've just made first contact with the American colonists. Your choices"
             + "\n from this point on will affect the future of native American rights and society. Are you ready to begin? PRESS <ENTER> TO CONTINUE", new String[] {""});
         
-        String ask = "\nThe year is 1785. The new United States of America proposes that your tribe signs the Treaty"
+        String ask = "\n\nThe year is 1785. The new United States of America proposes that your tribe signs the Treaty"
                 + "\nof Hopewell. The treaty establishes boundaries between your land and the United States, but promises"
                 + "\nto protect your land. But the United States also regulates trade and takes prisoners who commit murder"
                 + "\nor robbery. Do you sign the treaty?";
@@ -50,7 +50,7 @@ public class Main {
 
 
         // 1787, step 2
-        ask = "\nIn 1787, the framers draft the United States Constitution. They decided that you were not citizens of the United "
+        ask = "\n\nIn 1787, the framers draft the United States Constitution. They decided that you were not citizens of the United "
                 + "\nStates and could not be taxed, treating your tribe as a different sovereignty. They also assign Congress as"
                 + "\nthe branch responsible for indigenous relations. Do you publicly support the Constitution, protest it, or"
                 + "\n stay silent?";
@@ -82,7 +82,7 @@ public class Main {
         // Treaty of Dancing Rabbit Creek
         // Stay: citizenship = true, culture -1, land -1
         // Go: land -1
-        ask = "The year is 1831, and the Americans propose a treaty, the Treaty of Dancing Rabbit Creek." +
+        ask = "\n\nThe year is 1831, and the Americans propose a treaty, the Treaty of Dancing Rabbit Creek." +
                 "\nIf you choose to stay, you will gain citizenship, however, if you choose to decline" +
                 "\nWell then, I wish you the best" +
                 "\nDo you choose to ";
@@ -111,7 +111,7 @@ public class Main {
         // Dawes Act
         // Accept: citizenship = true, culture -1, land -1
         // Decline: force you to choose land anyways, culture -1, land -1, relations -1
-        ask = "The year is 1887, and quite a bit of time has passed since the last treaty was proposed" +
+        ask = "\n\nThe year is 1887, and quite a bit of time has passed since the last treaty was proposed" +
                 "\nNow, the Americans propose to create the Dawes Act. The Dawes Act will break up reservations" +
                 "\ninto plots of land for each individual family. In exchange for accepting a plot, you will gain citizenship." +
                 "\nThe government believes that if Native Americans farm their own land, they will assimilate into American culture" +
@@ -153,20 +153,14 @@ public class Main {
             System.out.println("Oh... Well it is the bright side for Americans. Cheer for capitalism!");
         }
 
-        ask = "The year is now 1890, and the Indian Naturalization Act has just been passed. This is finally some good news! You may now"
+
+
+
+        
+        ask = "\n\nThe year is now 1890, and the Indian Naturalization Act has just been passed. This is finally some good news! You may now"
             +"\n have a clear path to US Citizenship through Naturalization! If you choose, you may get a chance to become a citizen depending"
             +"\n on the requirements determined by state law. Applying will cause you to loose a slight amount of your culture"
             +"\n as your people integrate into American society, but it's definitely a temping offer!";
-        /*
-        The Dawes Act broke up reservations into plots of land for each individual family.
-        In exchange for accepting a plot, Native Americans would receive citizenship.
-        In this act, Native tribes lost 90 million acres of land sold to non-Natives underpriced.
-        The government reasoned that if Native Americans farmed their own land, they would assimilate into American culture.
-        They also wanted to break up tribes.
-        However, Natives were often given land unsuitable for agriculture,
-        they did not know how to manage the small amount of money they received,
-        and inheritors did not know how to farm.
-         */
         inp = printAskInput(scanner, ask, new String[] {"apply", "ignore"});
         if (inp.equals("apply")) {
             System.out.println("You begin the long and tedious process of Naturalization...");
@@ -194,7 +188,7 @@ public class Main {
 
         
         // Conclusion
-        System.out.println("\nThough all Native Americans have gained citizenship, but there is still a long way to go in rights. Native "
+        System.out.println("\n\nThough all Native Americans have gained citizenship, but there is still a long way to go in rights. Native "
                 + "\nAmericans do not gain voting rights until the civil rights movement of the 1960s. Now, the Constitution protects all "
                 + "\nrights but the journey to that protection was a struggle.");
         
