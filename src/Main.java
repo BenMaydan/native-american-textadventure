@@ -164,7 +164,7 @@ public class Main {
         ask = "\n\nThe year is now 1890, and the Indian Naturalization Act has just been passed. This is finally some good news! You may now"
             +"\n have a clear path to US Citizenship through Naturalization! If you choose, you may get a chance to become a citizen depending"
             +"\n on the requirements determined by state law. Applying will cause you to loose a slight amount of your culture"
-            +"\n as your people integrate into American society, but it's definitely a temping offer!";
+            +"\n as your people integrate into American society, but it's definitely a tempting offer!";
         inp = printAskInput(scanner, ask, new String[] {"apply", "ignore"});
         if (inp.equals("apply")) {
             System.out.println("You begin the long and tedious process of Naturalization...");
@@ -172,7 +172,7 @@ public class Main {
             int result = r.nextInt(100);
             if (result > 60){
                 System.out.println("You attempted to be Naturalized. Unfortunately, your state's court did not accept your Naturalization. You did not gain citizenship."
-                    +"\n no culture was lost, as you did not gain citizenships.");
+                    +"\n no culture was lost, as you did not gain citizenship.");
             } else {
                 System.out.println("Under the new Indian Naturalization act, you have been Naturalized. More members of your tribe are now citizens."+
                     "\n some of your culture was lost as you integrated into American society.");
@@ -192,7 +192,7 @@ public class Main {
 
         
         // Conclusion
-        System.out.println("\n\nThough all Native Americans have gained citizenship, but there is still a long way to go in rights. Native "
+        System.out.println("\n\nThough all Native Americans have gained citizenship, there is still a long way to go in the fight for rights. Native "
                 + "\nAmericans do not gain voting rights until the civil rights movement of the 1960s. Now, the Constitution protects all "
                 + "\nrights but the journey to that protection was a struggle.");
         
